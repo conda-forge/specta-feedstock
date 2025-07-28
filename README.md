@@ -145,6 +145,3 @@ Feedstock Maintainers
 
 * [@trungleduc](https://github.com/trungleduc/)
 
-
-<!-- dummy commit to enable rerendering -->
-
