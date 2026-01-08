@@ -1,5 +1,5 @@
 {% set name = "specta" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6bb1fbf969c24c77609885b961157bbe693a1fad8c27cb3cce217c98d863bc82
+  sha256: 2ac5bf970a190804a912661639fcad3c235bcaf7dc9565f4004f8c8134fd283a
 
 build:
   noarch: python
