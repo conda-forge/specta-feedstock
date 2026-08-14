@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -25,7 +25,7 @@ requirements:
     - hatch-jupyter-builder >=0.5
   run:
     - python >={{ python_min }}
-    - jupyterlite-core >=0.7.0,<0.8
+    - jupyterlite-core >=0.7.0,<0.9
 
 test:
   imports:
